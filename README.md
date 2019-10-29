@@ -1,5 +1,9 @@
 # Bluetooth research project
 
+The purpose of this project is to research, evaluate and understand the bluetooth technology stack.
+It was also to understand at which stage of bluetooth communication the recently published Knob Attack takes place.
+[Knob Attack](https://knobattack.com/)
+
 ## Directory Structure
 
 ## blmouse
