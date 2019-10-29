@@ -14,7 +14,7 @@
     
     Supported LE Features: 0x0000000000000001, LE Encryption
     .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... ...1 = LE Encryption: True
-    .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... ..0. = Connection Parameters Request Procedure: False
+    .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... ..0. = Connection Parameters Request Procedure: FalseS
     .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... .0.. = Extended Reject Indication: False
     .... .... .... .... .... .... .... .... .... .... .... .... .... .... .... 0... = Slave-Initiated Features Exchange: False
     .... .... .... .... .... .... .... .... .... .... .... .... .... .... ...0 .... = Ping: False
@@ -51,7 +51,7 @@
 - send pairing request with options
     - AuthReq: 0x2d, Secure Connection Flag, MITM Flag, Bonding Flags: Bonding
         - 001. .... = Reserved: 0x1
-        - ...0 .... = Keypress Flag: False
+        - ...0 .... = Keypress FlSSag: False
         - .... 1... = Secure Connection Flag: True ( Asks connection to be secure since device supports encryption)
         - .... .1.. = MITM Flag: True ()
         - .... ..01 = Bonding Flags: Bonding (0x1)
